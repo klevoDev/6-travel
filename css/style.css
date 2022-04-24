@@ -2,9 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
+
 .wrapper {
     padding: 30px 0 65px 0;
 }
+
 
 .conteiner {
     max-width: 702px;
@@ -28,6 +30,17 @@
     text-align: center;
 }
 
+.title {
+    font-family: 'Fira Mono';
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+
 .page {}
 
 .page__trip {
@@ -42,7 +55,9 @@
     margin-bottom: 51px;
 }
 
-
+.page__road {
+    margin-bottom: 81px;
+}
 
 
 .trip {}
@@ -59,7 +74,6 @@
 }
 
 .trip__text {}
-
 
 
 .together {}
@@ -94,6 +108,7 @@
 }
 
 .variants__text {
+
     margin-bottom: 26px;
 }
 
@@ -109,4 +124,50 @@
     background: url(image.png);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+}
+
+
+.road {}
+
+.road__conteiner {
+    max-width: 530px;
+    margin: 0 auto;
+}
+
+.road__subheading {
+    margin-bottom: 8.5px;
+}
+
+.road__text {
+    text-align: left;
+    color: #1D0639;
+
+    margin-bottom: 49px;
+}
+
+.road__border {
+    box-shadow: 4px 4px 15px rgba(73, 30, 128, 0.55);
+    border-radius: 10px;
+
+    max-width: 346px;
+    margin: 0 auto;
+    padding: 37px 42px 40px 40px;
+}
+
+.road__wrap-image {
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+.road__image {}
+
+.road__title {
+    margin-bottom: 25px;
+}
+
+.road__desc {
+    line-height: 140%;
+    text-align: center;
+    color: #1D0639;
 }
