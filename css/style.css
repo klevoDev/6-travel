@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+.wrapper {
+    padding: 30px 0 65px 0;
+}
+
+.conteiner {
+    max-width: 702px;
+    margin: 0 auto;
+}
+
+.text {
+    font-family: 'Tenor Sans';
+
+    font-size: 16px;
+    line-height: 145%;
+    text-align: justify;
+}
+
+.page {}
+
+.page__trip {
+    margin-bottom: 29px;
+}
+
+
+
+
+.trip {}
+
+.trip__heading {
+    font-family: 'Fira Mono';
+    font-size: 38px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-bottom: 11px;
+}
+
+.trip__text {}
