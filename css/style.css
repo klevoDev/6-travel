@@ -31,7 +31,7 @@
 }
 
 .title {
-    font-family: 'Fira Mono';
+    font-family: 'Fira Mono', sans-serif;
 
     font-weight: 500;
     font-size: 20px;
@@ -131,6 +131,7 @@
 
 .road__conteiner {
     max-width: 530px;
+
     margin: 0 auto;
 }
 
@@ -142,10 +143,11 @@
     text-align: left;
     color: #1D0639;
 
-    margin-bottom: 49px;
+    margin-bottom: 48px;
 }
 
 .road__border {
+    border: 1px solid rgba(73, 30, 128, 0.33);
     box-shadow: 4px 4px 15px rgba(73, 30, 128, 0.55);
     border-radius: 10px;
 
@@ -170,4 +172,39 @@
     line-height: 140%;
     text-align: center;
     color: #1D0639;
+}
+
+
+.footer {}
+
+.footer__title {
+    margin-bottom: 20px;
+}
+
+.footer__list {
+    font-family: 'Noto Serif', sans-serif;
+
+    font-size: 17px;
+    line-height: 110%;
+
+    max-width: 177px;
+    margin: 0 auto;
+}
+
+.footer__link {
+    text-decoration: underline;
+    color: #5A9CFF;
+}
+
+.footer__link-green {
+    text-decoration: underline;
+    color: #3CC2A2;
+}
+
+.footer__item {
+    margin-bottom: 18px;
+}
+
+.footer__item:last-child {
+    margin-bottom: 0;
 }
