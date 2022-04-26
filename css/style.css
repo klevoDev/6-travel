@@ -3,6 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
 
+body {
+    font-family: 'Fira Mono', sans-serif;
+}
+
+
 .wrapper {
     padding: 30px 0 65px 0;
 }
@@ -23,16 +28,12 @@
 }
 
 .subheading {
-    font-family: 'Fira Mono', sans-serif;
-
     font-size: 30px;
     line-height: 140%;
     text-align: center;
 }
 
 .title {
-    font-family: 'Fira Mono', sans-serif;
-
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
@@ -63,8 +64,6 @@
 .trip {}
 
 .trip__heading {
-    font-family: 'Fira Mono', sans-serif;
-
     font-size: 38px;
     line-height: 130%;
     text-align: center;
@@ -179,6 +178,10 @@
 
 .footer__title {
     margin-bottom: 20px;
+}
+
+.footer__border {
+    margin-right: 6px;
 }
 
 .footer__list {
