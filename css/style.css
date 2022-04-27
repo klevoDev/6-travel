@@ -22,7 +22,6 @@ body {
 .text {
     font-family: 'Tenor Sans', sans-serif;
 
-    font-size: 16px;
     line-height: 145%;
     text-align: justify;
 }
@@ -87,8 +86,6 @@ body {
 
 .together__wrap-image {
     text-align: center;
-
-    margin: 0 auto;
 }
 
 .together__image {
@@ -106,14 +103,11 @@ body {
 }
 
 .variants__text {
-
     margin-bottom: 26px;
 }
 
 .variants__wrap-image {
     text-align: center;
-
-    margin: 0 auto;
 }
 
 .variants__image {
@@ -128,19 +122,19 @@ body {
 
 .road__conteiner {
     max-width: 530px;
-
     margin: 0 auto;
 }
 
 .road__subheading {
-    margin-bottom: 8.5px;
+    margin-bottom: 12px;
 }
 
 .road__text {
     text-align: left;
     color: #1D0639;
+    line-height: 140%;
 
-    margin-bottom: 48px;
+    margin-bottom: 49px;
 }
 
 .road__border {
@@ -164,7 +158,7 @@ body {
 }
 
 .road__title {
-    margin-bottom: 25px;
+    margin-bottom: 26px;
 }
 
 .road__desc {
@@ -180,9 +174,9 @@ body {
     margin-bottom: 20px;
 }
 
-.footer__border {
+/* .footer__border {
     margin-right: 6px;
-}
+} */
 
 .footer__list {
     font-family: 'Noto Serif', sans-serif;
@@ -190,19 +184,25 @@ body {
     font-size: 17px;
     line-height: 110%;
 
-    max-width: 177px;
+    max-width: 184px;
     margin: 0 auto;
+
 }
 
 .footer__link {
     text-decoration: underline;
     color: #5A9CFF;
+    transition: all 0.3s ease 0s;
 }
 
-.footer__link-green {
-    text-decoration: underline;
+.footer__link:hover {
     color: #3CC2A2;
 }
+
+/* .footer__item:nth-child(2) a {
+    text-decoration: underline;
+    color: #3CC2A2;
+} */
 
 .footer__item {
     margin-bottom: 18px;
